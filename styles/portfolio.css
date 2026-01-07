@@ -10,9 +10,11 @@
 a{
     text-decoration: none;
 }
+
 li{
     list-style: none;
 }
+
 .btn{
    padding: 14px 22px;
    background-color: #FD6E0A;
@@ -25,19 +27,33 @@ li{
    font-weight: 600;
    transition: all 0.3s ease;
 }
+
 .btn:hover, .btn-white{
     border: 1px solid #FD6E0A;
     background-color: white;
     color: #FD6E0A;
 }
+
 .container{
     max-width: 1140px;
     width: 71%;
     margin: 0 auto 50px;
 }
+
 .section-title{
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.section-title h2{
     font-size: 35px;
     color: #181818;
+    margin-bottom: 30px;
+}
+
+.section-title p{
+    font-size: 18px;
+    color: #757575;
 }
 
 /* header section style  */
@@ -112,4 +128,19 @@ li{
 
 .btn-white{
     margin-left: 30px;
+}
+
+/* about section style  */
+#about{
+    margin-top: 70px;
+    padding: 131px 156px;
+    background-color: #FFF8F3;
+    border-radius: 10px;
+}
+
+.about-cards-container{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    color: #757575;
 }
