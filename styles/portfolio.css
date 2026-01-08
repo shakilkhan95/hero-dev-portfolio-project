@@ -37,7 +37,7 @@ li{
 .container{
     max-width: 1140px;
     width: 71%;
-    margin: 0 auto 50px;
+    margin: 0 auto 150px;
 }
 
 .section-title{
@@ -67,6 +67,7 @@ li{
     padding-top: 51px;
     display: flex;
     justify-content: space-between;
+    margin: 0 auto 50px;
 }
 
 .navbar h2{
@@ -220,7 +221,6 @@ li{
 
 /* footer section style  */
 #footer{
-    margin-top: 50px;
     padding: 130px 280px;
     display: flex;
     justify-content: space-around;
@@ -244,7 +244,7 @@ li{
     margin-right: 20px;
 }
 
-#footer form div input{
+#footer form div input, #footer form div #message{
     width: 460px;
     background-color: white;
     border-radius: 5px;
@@ -252,11 +252,16 @@ li{
     margin: 18px 0;
     font-size: 16px;
     color: #757575;
-    border: none;
+    border: 1px solid #FFF8F3;
     outline: none;
 }
 
 #footer form div #message{
     height: 180px;
     margin-bottom: 30px;
+    resize: none;
+}
+
+#footer form div input:focus, #footer form div #message:focus{
+    border: 1px solid #FD6E0A;
 }
