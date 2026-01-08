@@ -176,3 +176,44 @@ li{
     line-height: 28px;
     color: #757575;
 }
+
+/* resume section style  */
+.resume-cards-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.resume-card h3{
+    font-size: 30px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+
+.resume-info h4{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.resume-info p:first-of-type{
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+.resume-info p:last-of-type{
+    max-width: 511px;
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+}
+
+.resume-card hr{
+    margin: 30px 0;
+}
+
+#resume .btn{
+    display: block;
+    margin: 50px auto;
+}
