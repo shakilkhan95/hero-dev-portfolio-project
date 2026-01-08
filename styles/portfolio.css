@@ -217,3 +217,46 @@ li{
     display: block;
     margin: 50px auto;
 }
+
+/* footer section style  */
+#footer{
+    margin-top: 50px;
+    padding: 130px 280px;
+    display: flex;
+    justify-content: space-around;
+    gap: 115px;
+    background-color: #FFF8F3;
+}
+
+#footer h2{
+    font-size: 35px;
+    color: #181818;
+}
+
+#footer .social p{
+    max-width: 562px;
+    font-size: 16px;
+    color: #474747;
+    margin: 30px 0;
+}
+
+.social .icons img{
+    margin-right: 20px;
+}
+
+#footer form div input{
+    width: 460px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 15px 20px;
+    margin: 18px 0;
+    font-size: 16px;
+    color: #757575;
+    border: none;
+    outline: none;
+}
+
+#footer form div #message{
+    height: 180px;
+    margin-bottom: 30px;
+}
