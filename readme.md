@@ -1,5 +1,5 @@
 # Let's Build your Portfolio 
-<img src="./portfolio.png">
+<img src="./images/hero-dev-portfolio.jpg">
 
 # Image generation prompts
 # Professional Studio Portrait Prompts
